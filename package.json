@@ -1,0 +1,33 @@
+{
+  "name": "talisman",
+  "version": "0.0.1",
+  "description": "A toolkit for building modern web applications",
+  "main": "./src/index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {
+    "domready": "^1.0.7",
+    "extend-object": "^1.0.0",
+    "grunt-browserify": "^3.2.1",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "uglifyify": "^2.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha ./test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertWHurst/Talisman.git"
+  },
+  "author": "Robert Hurst <robertwhurst@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobertWHurst/Talisman/issues"
+  },
+  "homepage": "https://github.com/RobertWHurst/Talisman#readme"
+}
